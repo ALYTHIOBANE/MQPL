@@ -1,0 +1,8 @@
+com\distributeur\unit\PortefeuilleTest.class
+com\distributeur\unit\TransactionTest.class
+com\distributeur\unit\UtilisateurTest.class
+com\distributeur\unit\AdminTest.class
+com\distributeur\unit\BoissonTest.class
+com\distributeur\acceptance\DistributeurAcceptanceTest.class
+com\distributeur\unit\JournalVentesTest.class
+com\distributeur\unit\DistributeurTest.class

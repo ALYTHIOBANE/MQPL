@@ -1,0 +1,8 @@
+com\distributeur\Distributeur.class
+com\distributeur\Portefeuille.class
+com\distributeur\Utilisateur.class
+com\distributeur\Boisson.class
+com\distributeur\Admin.class
+com\distributeur\JournalVentes.class
+com\distributeur\Main.class
+com\distributeur\Transaction.class
