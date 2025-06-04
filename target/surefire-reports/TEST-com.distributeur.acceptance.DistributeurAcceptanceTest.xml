@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.distributeur.acceptance.DistributeurAcceptanceTest" time="0.254" tests="15" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.distributeur.acceptance.DistributeurAcceptanceTest" time="0.222" tests="15" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,8 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="SN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-21.0.5.11-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\dell\AppData\Local\Temp\surefire13108881743426723796\surefirebooter17507545034543198529.jar C:\Users\dell\AppData\Local\Temp\surefire13108881743426723796 2025-06-04T02-07-50_354-jvmRun1 surefire2028251677398810904tmp surefire_012798993987864013789tmp"/>
+    <property name="sun.java.command" value="C:\Users\dell\AppData\Local\Temp\surefire11627965165347550178\surefirebooter5281066917536500906.jar C:\Users\dell\AppData\Local\Temp\surefire11627965165347550178 2025-06-04T23-15-20_109-jvmRun1 surefire14176632361614766238tmp surefire_017971775155206617981tmp"/>
     <property name="jdk.debug" value="release"/>
+    <property name="test" value="*Test#*"/>
     <property name="surefire.test.class.path" value="C:\Users\dell\Desktop\mqpl\mqpl\target\test-classes;C:\Users\dell\Desktop\mqpl\mqpl\target\classes;C:\Users\dell\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\dell\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\dell\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\dell\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\dell\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\dell\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\dell\.m2\repository\org\junit\jupiter\junit-jupiter\5.13.0\junit-jupiter-5.13.0.jar;C:\Users\dell\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.13.0\junit-jupiter-params-5.13.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\dell"/>
@@ -30,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\dell\AppData\Local\Temp\surefire13108881743426723796\surefirebooter17507545034543198529.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\dell\AppData\Local\Temp\surefire11627965165347550178\surefirebooter5281066917536500906.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.5+11-LTS"/>
@@ -59,19 +60,19 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testConsultationHistoriqueVentes" classname="com.distributeur.acceptance.DistributeurAcceptanceTest" time="0.126"/>
-  <testcase name="testRechargeStockBoissonInexistante" classname="com.distributeur.acceptance.DistributeurAcceptanceTest" time="0.007"/>
-  <testcase name="testAchatBoissonMontantInsuffisant" classname="com.distributeur.acceptance.DistributeurAcceptanceTest" time="0.001"/>
-  <testcase name="testAjoutFondsUtilisateur" classname="com.distributeur.acceptance.DistributeurAcceptanceTest" time="0.002"/>
-  <testcase name="testAchatJusquaEpuisementStock" classname="com.distributeur.acceptance.DistributeurAcceptanceTest" time="0.017"/>
-  <testcase name="testAchatBoissonSucces" classname="com.distributeur.acceptance.DistributeurAcceptanceTest" time="0.003"/>
-  <testcase name="testCycleCompletUtilisation" classname="com.distributeur.acceptance.DistributeurAcceptanceTest" time="0.008"/>
-  <testcase name="testRechargeStock" classname="com.distributeur.acceptance.DistributeurAcceptanceTest" time="0"/>
-  <testcase name="testAchatBoissonInexistante" classname="com.distributeur.acceptance.DistributeurAcceptanceTest" time="0.005"/>
-  <testcase name="testAchatPlusieursBoissonsSuccessives" classname="com.distributeur.acceptance.DistributeurAcceptanceTest" time="0.005"/>
-  <testcase name="testCollecteFonds" classname="com.distributeur.acceptance.DistributeurAcceptanceTest" time="0.003"/>
-  <testcase name="testAchatBoissonRuptureStock" classname="com.distributeur.acceptance.DistributeurAcceptanceTest" time="0.002"/>
-  <testcase name="testRechargeStockQuantiteNegative" classname="com.distributeur.acceptance.DistributeurAcceptanceTest" time="0.004"/>
-  <testcase name="testAjoutFondsNegatifsUtilisateur" classname="com.distributeur.acceptance.DistributeurAcceptanceTest" time="0.006"/>
+  <testcase name="testConsultationHistoriqueVentes" classname="com.distributeur.acceptance.DistributeurAcceptanceTest" time="0.124"/>
+  <testcase name="testRechargeStockBoissonInexistante" classname="com.distributeur.acceptance.DistributeurAcceptanceTest" time="0.002"/>
+  <testcase name="testAchatBoissonMontantInsuffisant" classname="com.distributeur.acceptance.DistributeurAcceptanceTest" time="0"/>
+  <testcase name="testAjoutFondsUtilisateur" classname="com.distributeur.acceptance.DistributeurAcceptanceTest" time="0.005"/>
+  <testcase name="testAchatJusquaEpuisementStock" classname="com.distributeur.acceptance.DistributeurAcceptanceTest" time="0.018"/>
+  <testcase name="testAchatBoissonSucces" classname="com.distributeur.acceptance.DistributeurAcceptanceTest" time="0"/>
+  <testcase name="testCycleCompletUtilisation" classname="com.distributeur.acceptance.DistributeurAcceptanceTest" time="0.01"/>
+  <testcase name="testRechargeStock" classname="com.distributeur.acceptance.DistributeurAcceptanceTest" time="0.001"/>
+  <testcase name="testAchatBoissonInexistante" classname="com.distributeur.acceptance.DistributeurAcceptanceTest" time="0.004"/>
+  <testcase name="testAchatPlusieursBoissonsSuccessives" classname="com.distributeur.acceptance.DistributeurAcceptanceTest" time="0.001"/>
+  <testcase name="testCollecteFonds" classname="com.distributeur.acceptance.DistributeurAcceptanceTest" time="0.002"/>
+  <testcase name="testAchatBoissonRuptureStock" classname="com.distributeur.acceptance.DistributeurAcceptanceTest" time="0"/>
+  <testcase name="testRechargeStockQuantiteNegative" classname="com.distributeur.acceptance.DistributeurAcceptanceTest" time="0"/>
+  <testcase name="testAjoutFondsNegatifsUtilisateur" classname="com.distributeur.acceptance.DistributeurAcceptanceTest" time="0.008"/>
   <testcase name="testAffichageBoissonsDisponibles" classname="com.distributeur.acceptance.DistributeurAcceptanceTest" time="0.004"/>
 </testsuite>
